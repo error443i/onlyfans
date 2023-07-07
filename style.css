@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    position: relative;
+}
+
+.cols {
+    display: flex;
+    width: 100%;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #00aff0;
+    margin: 0 auto;
+}
+
+.col-right {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(217, 214, 214);
+}
+
+.logo {
+    position: absolute;
+    content: "";
+    background: url(https://static.onlyfans.com/theme/onlyfans/spa/img/logo_icon_white.svg) 100% -6% no-repeat;
+    background-size: auto 190%;
+    opacity: 0.12;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    margin: 0 auto;
+}
+
+.login_container {
+    display: flex;
+    width: 100%;
+    
+}
+.login_form {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .col-left {
+        display: none;
+    }
+
+    .col-right {
+        border-bottom: none;
+    }
+}
+
+.login_form h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    margin-bottom: 12px;
+    color: #242529;
+}
+
+.login_form input {
+    padding: 14px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    outline: none;
+    color: #242529;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: NotoColorEmoji, Roboto, sans-serif;
+    border: 1px solid #c4cad1;
+}
+
+button {
+    text-align: center;
+    padding: 4px;
+    height: 40px;
+    color: #fdfdfd;
+    background-color: #dcdfe3;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 18px;
+    border: 0px solid #c4cad1;
+    outline: none;
+    margin-top: 10px;
+}
+
+.forgot_signup {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.forgot_signup a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Roboto,sans-serif;
+    color: #169dc2;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.dot {
+    width: 2px;
+    height: 2px;
+    content: "";
+    border-radius: 100px;
+    background: rgb(138, 150, 163);
+    top: 50%;
+    left: 47%;
+    position: absolute;
+}
+
+.login_social {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.signin_twitter {
+    width: 100%;
+    height: 40px;
+    background-color: #1da1f2;
+    text-align: center;
+}
+
+.signin_twitter:hover {
+    background-color: #2b58eced;
+}
+.signin_google {
+    width: 100%;
+    height: 40px;
+    background-color: #4285f4;
+}
+
+.signin_google:hover {
+    background-color: #2b58eced;
+}
+
+.windows_login {
+    width: 100%;
+    background-color: #00aff0;
+}
+
+.windows_login:hover {
+    background-color: #2b58eced;
+}
+
+.logo_text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 200px;
+    margin: 70px auto 0px;
+}
+
+.logo_text .img_1 {
+    width: 48px;
+    height: 48px;
+}
+
+.logo_text .img_2 {
+    width: 165px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.logo_text h1 {
+    margin-left: 10px;
+    color: #fefefe;
+    font-family: 0/0 a;
+}
+
+.logo_text .logo_p {
+    width: 100%;
+    margin-top: -50px;
+    font-size: 32px;
+    color: #fefefe;
+    font-family: Roboto,sans-serif;
+    white-space: none;
+}
+
+.signin_twitter i {
+    margin-left: -90px;
+}
+
+.fa-twitter:hover {
+    color: #1E3050;
+}
+.signin_twitter span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.signin_google i {
+    margin-left: -90px;
+}
+
+.signin_google span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.windows_login i {
+    margin-left: -110px;
+}
+
+.windows_login span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
